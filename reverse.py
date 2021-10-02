@@ -160,7 +160,7 @@ def reverse_image(message):
                 ),
             )
         elif message.content_type == "sticker":
-            sticker_file_id = message.sticker.file_id
+            sticker_file_id = message.sticker.thumb.file_id
             file_info = bot.get_file(sticker_file_id)
             reverse_final_url = requests.get(
                 "https://images.google.com/searchbyimage?image_url=https://api.telegram.org/file/bot%s/%s"
