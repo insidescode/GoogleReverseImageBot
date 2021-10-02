@@ -1,8 +1,12 @@
 import telebot
 import requests
 from telebot import types
+<<<<<<< HEAD
 # Example Bot Token. You can get it from @BotFather and replace it here.
 bot_token = "2038613226:AAHQw-k0wg4i3CSLWAnNLQEsGNQ3Cquvvwc"
+=======
+bot_token = "2038613226:AAHQw-k0wg4i3CSLWAnNLQEsGNQ3Cquvvwc" # This is a example token Change this token with your own.
+>>>>>>> 9e693527def05edbbd01800cad02568ea4778e22
 
 bot = telebot.TeleBot(bot_token)
 
@@ -239,10 +243,14 @@ def reverse_image(message):
                     ),
                 )
             except:
+<<<<<<< HEAD
                 bot.send_message(
                     message.chat.id,
                     "Reverse Image Search is not possible for GIFs sent through Telegram GIF section. Try downloading and send again to reverse search. \nErr: Telegram API Limit",
                 )
 
 
+=======
+                bot.send_message(message.chat.id, "Reverse Image Search is not possible for GIFs sent through Telegram GIF section. Try downloading and send again to reverse search. \nErr: Telegram API Limit")
+>>>>>>> 9e693527def05edbbd01800cad02568ea4778e22
 bot.polling(none_stop=True)
