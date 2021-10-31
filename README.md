@@ -3,6 +3,14 @@ GoogleReverseImageBot is a reverse image bot for Telegram users. You can send im
 
 **Demo**: https://telegram.me/GoogleReverseImageBot
 
+## How to use this Telegram bot?
+
+1. Open Telegram and search for the username mentioned above.
+2. Upload an image into it.
+3. It will then reverse search it and provide a google link to you.
+
+**Note**: To use it in Telegram Group you need to reply with /reverse command to the image you want to reverse.
+
 ### To-do
 - [x] Add Group support with /reverse command
 - [x] Add Sticker reverse search support
