@@ -11,7 +11,7 @@ bot = telebot.TeleBot(bot_token)
 def start_message(message):
     bot.send_message(
         message.chat.id,
-        """Hello, %s!\n\nGoogle Reverse Image Bot let's you reverse search images on Google. You can try sending an image to me and I will reverse search that image. \nI can also be added to groups and you can reverse image by replying /reverse command to an image.\n\nDeveloped by @w3Abhishek\nThanks for using."""
+        """Hello, %s!\n\nGoogle Reverse Image Bot let's you reverse search images on Google. You can try sending an image to me and I will reverse search that image. \nI can also be added to groups and you can reverse image by replying /reverse command to an image.\n\nTake a Look at @Sluttyoreo\nThanks To @w3Abhishek\nThanks for using."""
         % message.from_user.first_name,
     )
 
@@ -39,7 +39,7 @@ def reverse_image(message):
                         ],
                         [
                             types.InlineKeyboardButton(
-                                text="Kronos Support", url="https://t.me/KeevChat"
+                                text="Do Not Click", url="https://bit.ly/doNotClickMF"
                             )
                         ],
                     ]
@@ -65,7 +65,7 @@ def reverse_image(message):
                         ],
                         [
                             types.InlineKeyboardButton(
-                                text="Kronos Support", url="https://t.me/KeevChat"
+                                text="Do Not Click", url="https://bit.ly/doNotClickMF"
                             )
                         ],
                     ]
@@ -92,7 +92,7 @@ def reverse_image(message):
                             ],
                             [
                                 types.InlineKeyboardButton(
-                                    text="Kronos Support", url="https://t.me/KeevChat"
+                                    text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                 )
                             ],
                         ]
@@ -121,7 +121,7 @@ def reverse_image(message):
                             ],
                             [
                                 types.InlineKeyboardButton(
-                                    text="Kronos Support", url="https://t.me/KeevChat"
+                                    text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                 )
                             ],
                         ]
@@ -171,7 +171,7 @@ def reverse_image(message):
                             ],
                             [
                                 types.InlineKeyboardButton(
-                                    text="Kronos Support", url="https://t.me/KeevChat"
+                                    text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                 )
                             ],
                         ]
@@ -197,7 +197,7 @@ def reverse_image(message):
                             ],
                             [
                                 types.InlineKeyboardButton(
-                                    text="Kronos Support", url="https://t.me/KeevChat"
+                                    text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                 )
                             ],
                         ]
@@ -223,7 +223,7 @@ def reverse_image(message):
                             ],
                             [
                                 types.InlineKeyboardButton(
-                                    text="Kronos Support", url="https://t.me/KeevChat"
+                                    text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                 )
                             ],
                         ]
@@ -250,7 +250,7 @@ def reverse_image(message):
                                 ],
                                 [
                                     types.InlineKeyboardButton(
-                                        text="Kronos Support", url="https://t.me/KeevChat"
+                                        text="Do Not Click", url="https://bit.ly/doNotClickMF"
                                     )
                                 ],
                             ]
