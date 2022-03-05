@@ -1,0 +1,1 @@
+worker: python reverse.py
